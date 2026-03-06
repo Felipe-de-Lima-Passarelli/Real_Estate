@@ -58,18 +58,18 @@ const Header = () => {
         </div>
         <div className="text-center text-white mt-80 relative">
           <button
-            className="absolute top-3 left-30 text-4xl cursor-pointer"
+            className="absolute top-[4%] left-[10%] text-4xl cursor-pointer"
             onClick={() => prevBanner()}
           >
             &lt;
           </button>
           <button
-            className="absolute top-3 right-30 text-4xl cursor-pointer"
+            className="absolute top-[4%] right-[10%] text-4xl cursor-pointer"
             onClick={() => nextBanner()}
           >
             &gt;
           </button>
-          <h1 className="text-5xl font-black">
+          <h1 className="text-md md:text-3xl lg:text-4xl font-black">
             The perfect place for your family
           </h1>
           <button className="mt-10 border border-[#12BB8F] py-[0.3%] px-[0.5%] text-[#12BB8F] font-semibold rounded-sm cursor-pointer">
