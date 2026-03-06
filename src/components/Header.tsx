@@ -69,7 +69,7 @@ const Header = () => {
           >
             &gt;
           </button>
-          <h1 className="text-md md:text-3xl lg:text-4xl font-black">
+          <h1 className="text-md md:text-3xl lg:text-4xl font-black py-3 md:py-0">
             The perfect place for your family
           </h1>
           <button className="mt-10 border border-[#12BB8F] py-[0.3%] px-[0.5%] text-[#12BB8F] font-semibold rounded-sm cursor-pointer">
