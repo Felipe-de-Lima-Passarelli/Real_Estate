@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏢 Real Estate Landing Page
 
-## Getting Started
+Landing page institucional desenvolvida com **Next.js, React, TypeScript e TailwindCSS**.
 
-First, run the development server:
+O projeto simula o site de uma empresa do setor imobiliário, contendo diversas seções comuns em aplicações institucionais modernas, como apresentação da empresa, serviços, projetos, depoimentos e formulário de contato.
 
-```bash
+---
+
+# 🚀 Tecnologias utilizadas
+
+- Next.js
+- React
+- TypeScript
+- TailwindCSS
+- CSS
+
+---
+
+# ⚙️ Funcionalidades
+
+- Banner principal com **slider de imagens**
+- Seção **About** apresentando a empresa
+- Área de **Serviços interativos**
+- Grid com **projetos realizados**
+- **Depoimentos dinâmicos** com troca automática
+- **Formulário de contato**
+- Estrutura completa de landing page institucional
+- Componentização com React
+- Animações de entrada com CSS
+
+---
+
+# 🧩 Estrutura de componentes
+
+components/
+
+Header  
+Main  
+About  
+MainSection  
+Projects  
+Testimonials  
+Form  
+Footer
+
+---
+
+# 📂 Estrutura do projeto
+
+app/
+
+page.tsx  
+globals.css
+
+components/
+
+Header.tsx  
+Main.tsx  
+About.tsx  
+MainSection.tsx  
+Projects.tsx  
+Testimonials.tsx  
+Form.tsx  
+Footer.tsx
+
+public/
+
+img/
+
+---
+
+# 💡 Conceitos aplicados
+
+- Componentização em React
+- Estrutura utilizando App Router do Next.js
+- Controle de estado com `useState`
+- Atualização automática de conteúdo com `useEffect`
+- Layout responsivo com TailwindCSS
+- Organização de seções em aplicações institucionais
+- Uso de imagens otimizadas com `next/image`
+- Animações com CSS
+
+---
+
+# ▶️ Como rodar o projeto
+
+Clone o repositório:
+
+git clone https://github.com/Felipe-de-Lima-Passarelli/real-estate-landing-page
+
+Entre na pasta do projeto:
+
+cd real-estate-landing-page
+
+Instale as dependências:
+
+npm install
+
+Execute o projeto:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 👨‍💻 Autor
 
-To learn more about Next.js, take a look at the following resources:
+Felipe de Lima Passarelli  
+Desenvolvedor Front-End focado em evolução contínua e boas práticas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+GitHub:  
+https://github.com/Felipe-de-Lima-Passarelli
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# 📄 Licença
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto está sob a licença MIT.
